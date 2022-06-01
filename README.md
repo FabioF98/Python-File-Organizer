@@ -1,2 +1,1 @@
-# Python-File-Organizer
-File Classifier with Image Analysis
+# File Organizer with Image Analysis
