@@ -59,7 +59,7 @@ def file_handling(path, file, files_list):
 # dovesse essere importato come modulo
 def main():
     argument_check()
-    path = r"C:\Users\Fabio\desktop\Data science\FileOrganizer\files"
+    path = r"./files"
     files_list = [name for name in os.listdir(path) if os.path.isfile(os.path.join(path,name))]
     directories_check(path)
     file = sys.argv[1]
