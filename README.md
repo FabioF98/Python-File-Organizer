@@ -30,7 +30,11 @@ While doing this the script also creates a new file called *recap.csv* which con
 ## Second Step
 The file **addfile.py** is a python script intended to be used from the Command Line Interface. The goal of this file was to move a *single file*, positioned inside the *files* folder, to its correct folder (based on the type), updating the recap.csv file. The interface of the program has as its unique argument the file name, in case the name of the file doesn't exist the program will communicate it with a dedicated error message. 
 
-![](./howtouse.mov)
+
+
+https://user-images.githubusercontent.com/86225200/171512068-b2e980b0-c3b6-491d-b815-0be43d292a4a.mp4
+
+
 
 ## Third Step
 The script has to iterate over each image inside the image folder in order to create a table with the following information :
