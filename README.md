@@ -17,6 +17,7 @@ After locating the correct folder, the program loops alphabetically over every f
 * File dimension (in bytes)
 
 While doing this the script also creates a new file called *recap.csv* which contains information regarding every file, regardless of its extension. One specific request for this task was that the program needed to check whether the subfolders already existed and if the recap.csv file already containted some information, if that was the case the script updates the recap.csv file instead of overwriting it, so not to lose all previous data.
+
 <p align = "center">
   <img
        width = "400"
