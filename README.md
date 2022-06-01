@@ -28,5 +28,5 @@ The script has to iterate over each image inside the image folder in order to cr
 * If the image is grayscale, the *grayscale* column must indicate the value of the color level
 * If the image is RGB or RGBA, specific columns must indicate the value of each color level
 
-![]("./table.png")
+![](./table.png)
 
