@@ -18,6 +18,8 @@ After locating the correct folder, the program loops alphabetically over every f
 
 While doing this the script also creates a new file called *recap.csv* which contains information regarding every file, regardless of its extension. One specific request for this task was that the program needed to check whether the subfolders already existed and if the recap.csv file already containted some information, if that was the case the script updates the recap.csv file instead of overwriting it, so not to lose all previous data.
 
+![](/Csvfile.png)
+
 ## Second Step
 The file **addfile.py** is a python script intended to be used from the Command Line Interface. The goal of this file was to move a *single file*, positioned inside the *files* folder, to its correct folder (based on the type), updating the recap.csv file. The interface of the program has as its unique argument the file name, in case the name of the file doesn't exist the program will communicate it with a dedicated error message. 
 
