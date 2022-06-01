@@ -32,7 +32,7 @@ The file **addfile.py** is a python script intended to be used from the Command 
   <img
        width = "1000"
        height = "600"
-       src = "./howto.gif"
+       src = "./howtouse.mp4"
        
   >
   </p>
