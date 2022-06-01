@@ -48,8 +48,8 @@ The script has to iterate over each image inside the image folder in order to cr
 
 <p align = "center">
   <img
-       width = "1000"
-       height = "300"
+       width = "900"
+       height = "200"
        src = "./table.png"
        
   >
