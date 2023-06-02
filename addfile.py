@@ -54,9 +54,7 @@ def file_handling(path, file, files_list):
             shutil.move(os.path.join(path,file), docs_path)
             print(f""""{file}" successfully moved to "{docs_path}" """)
 
-# ho creato la funzione main perché essendo un eseguibile ho utilizzato l'if statement successivo
-# per assicurarmi che il programma sia eseguito solo se chiamato tramite shell e non nel caso in cui
-# dovesse essere importato come modulo
+
 def main():
     argument_check()
     path = r"./files"
